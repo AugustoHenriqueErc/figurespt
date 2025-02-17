@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=C\u00EDrculo
+comment0.text=\r\n\ Um\ c\u00EDrculo\ que\ pode\ ser\ manipulado\ e\ que\ desenha\ a\ si\ mesmo\ em\ uma\ tela.\r\n\ \r\n\ @author\ \ Michael\ K\u00F6lling\ and\ David\ J.\ Barnes\r\n\ @version\ 2016.02.29\r\n
+comment1.params=
+comment1.target=C\u00EDrculo()
+comment1.text=\r\n\ Cria\ um\ novo\ c\u00EDrculo\ na\ posi\u00E7\u00E3o\ padr\u00E3o\ com\ a\ cor\ padr\u00E3o.\r\n
+comment2.params=novoDi\u00E2metro
+comment2.target=void\ mudarTamanho(int)
+comment2.text=\r\n\ Muda\ o\ tamanho\ para\ o\ novo\ valor\ (em\ pixels).\ Tamanho\ precise\ ser\ >\=\ 0.\r\n
+comment3.params=
+comment3.target=void\ desenhar()
+comment3.text=\r\n\ Desenha\ o\ c\u00EDrculo\ com\ as\ especifica\u00E7\u00F5es\ atuais\ na\ tela.\r\n
+comment4.params=
+comment4.target=void\ apagar()
+comment4.text=\r\n\ Apaga\ o\ c\u00EDrculo\ da\ tela.\r\n
+numComments=5
