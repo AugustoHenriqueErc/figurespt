@@ -23,7 +23,6 @@ public class Quadrado extends Forma
     /**
      * Muda o tamanho para o novo valor (em pixels). Tamanho precise ser >= 0.
      */
-    @Override
     public void mudarTamanho(int novoTamanho)
     {
         apagar();

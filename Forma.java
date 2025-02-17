@@ -17,10 +17,10 @@ public abstract class Forma
      */
     public Forma()
     {
-        posiçãoX = 0;
-        posiçãoY = 0;
+        posiçãoX = 200;
+        posiçãoY = 200;
         cor = "azul";
-        estáVisível = false; 
+        estáVisível = true; 
     }
 
     /**
@@ -143,8 +143,9 @@ public abstract class Forma
 
     /**
      * Change the size to the new size (in pixels). Size must be >= 0.
-     */
-    protected abstract void mudarTamanho(int novo);
+     *
+    protected abstract void mudarTamanho();
+    /
     
     /**
      * Change the color. Valid colors are "red", "yellow", "blue", "green",

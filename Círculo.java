@@ -23,8 +23,7 @@ public class Círculo extends Forma
     /**
      * Muda o tamanho para o novo valor (em pixels). Tamanho precise ser >= 0.
      */
-    @Override
-    protected void mudarTamanho(int novoDiâmetro)
+    public void mudarTamanho(int novoDiâmetro, int x)
     {
         apagar();
         diâmetro = novoDiâmetro;

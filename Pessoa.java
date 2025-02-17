@@ -24,15 +24,15 @@ public class Pessoa extends Forma
     /**
      * Change the size to the new size (in pixels). Size must be >= 0.
      */
-    @Override
-    protected void mudarTamanho(int novaAltura, int novoComprimento)
+    public void mudarTamanho(int novaAltura, int novoComprimento)
     {
         apagar();
         altura = novaAltura;
         comprimento = novoComprimento;
         desenhar();
     }
-
+    
+    @Override
     protected void desenhar()
     {
         int bh = (int)(altura * 0.7);  // body height
@@ -52,17 +52,6 @@ public class Pessoa extends Forma
                               y, y-hh+3, y-hh-3, y-hh-hh, y-hh-hh, y-hh-3, y-hh+3 };
             canvas.draw(this, cor, new Polygon(xpoints, ypoints, 21));
             canvas.wait(10);
-        }
-    }
-
-    /**
-     * Erase the person on screen.
-     */
-    private void apagar()
-    {
-        if(estáVisível) {
-            Canvas canvas = Canvas.getCanvas();
-            canvas.erase(this);
         }
     }
 }
