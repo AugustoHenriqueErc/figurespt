@@ -1,8 +1,8 @@
 #BlueJ class context
-comment0.target=Forma
+comment0.target=FormaGeometrica
 comment0.text=\r\n\ Escreva\ uma\ descri\u00E7\u00E3o\ da\ classe\ Forma\ aqui.\r\n\ \r\n\ @author\ (seu\ nome)\ \r\n\ @version\ (um\ n\u00FAmero\ da\ vers\u00E3o\ ou\ uma\ data)\r\n
 comment1.params=
-comment1.target=Forma()
+comment1.target=FormaGeometrica()
 comment1.text=\r\n\ Create\ a\ new\ person\ at\ default\ position\ with\ default\ color.\r\n
 comment10.params=dist\u00E2ncia
 comment10.target=void\ moverHorizontalLentamente(int)

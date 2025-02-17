@@ -5,7 +5,7 @@
  * @author (seu nome) 
  * @version (um número da versão ou uma data)
  */
-public abstract class Forma
+public abstract class FormaGeometrica
 {
     protected int posiçãoX;
     protected int posiçãoY;
@@ -15,7 +15,7 @@ public abstract class Forma
     /**
      * Create a new person at default position with default color.
      */
-    public Forma()
+    public FormaGeometrica()
     {
         posiçãoX = 200;
         posiçãoY = 200;
@@ -156,11 +156,10 @@ public abstract class Forma
         cor = novaCor;
         desenhar();
     }
-
     /**
      * Draw the person with current specifications on screen.
      */
-    protected abstract void desenhar();
+    abstract void desenhar();
   
     /**
      * Erase the person on screen.

@@ -8,7 +8,7 @@ import java.awt.geom.*;
  * @version 2016.02.29
  */
 
-public class Círculo extends Forma
+public class Círculo extends FormaGeometrica
 {
     private int diâmetro;
     /**

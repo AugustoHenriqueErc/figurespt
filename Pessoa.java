@@ -7,7 +7,7 @@ import java.awt.*;
  * @version 2016.02.29
  */
 
-public class Pessoa extends Forma
+public class Pessoa extends FormaGeometrica
 {
     private int altura;
     private int comprimento;
